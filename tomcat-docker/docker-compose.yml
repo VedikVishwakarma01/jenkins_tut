@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+ tomcat:
+  image: tamcat:latest
+  build: .
+  container_name: tomcat-container
+  ports:
+    - "8080:8080"
+
+
+    
